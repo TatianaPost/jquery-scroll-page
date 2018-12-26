@@ -1,0 +1,90 @@
+/*
+=====================
+=====================
+Sticky styles
+=====================
+=====================
+*/
+.sticky {
+  transition: ease .3s;
+}
+
+.sticky-pin {
+  position: fixed;
+  top: 0;
+}
+
+
+/*
+=====================
+=====================
+Optional styles
+=====================
+=====================
+*/
+/* Reset */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Roboto Slab', serif;
+  color: #333333;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Tuning */
+header {
+  /*height: 100vh;*/ /* Uncomment for full height header */
+  padding: 110px 20px;
+  background: #4527A0;
+  color: #ffffff;
+  text-align: center;
+}
+
+hr {
+  width: 30px;
+  border-color: #EC407A;
+}
+
+nav {
+  width: 100%;
+  padding: 20px 0;
+  background: #7C4DFF;
+  color: #ffffff;
+}
+
+nav p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+section {
+  width: 80%;
+  max-width: 680px;
+  margin: 100px auto;
+}
+
+h2 {
+  color: #EC407A;
+}
+
+p {
+  line-height: 1.4em;
+  text-align: justify;
+}
+
+.sticky-pin {
+  background: #ffffff;
+  color: #7C4DFF;
+  box-shadow:
+    0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+}
